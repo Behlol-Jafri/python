@@ -30,7 +30,64 @@
 
 # print("Access granted. Welcome!")
 
-for i in range(1, 6):
-    for j in range(1, i + 1):
-        print("*", end=" ")
-    print()
+# for i in range(1, 6):
+#     for j in range(1, 6):
+#         print("*", end=" ")
+#     print()
+
+# for i in range(1, 6):
+#     for j in range(1, i + 1):
+#         print("*", end=" ")
+#     print()
+
+
+# table = int(input("Enter a number for table: "))
+# for i in range(1, 11):
+#     print(str(table) + " x " + str(i) + " = " + str(table * i))
+
+# n = 3
+# for i in range(1, n + 1):
+#     print(" " * (n-i), end="")
+#     print("*" * (2*i-1), end="")
+#     print("")
+
+# n = 3
+# for i in range(1, n + 1):
+#     print(" " * (i-1), end="")
+#     print("*" * (2*(n-i)+1), end="")
+#     print("")  
+
+
+# n = 3
+# for i in range(1, n + 1):
+#     print("*" * n , end="")
+#     print("")
+
+
+# n = 5
+# for i in range(1, n + 1):
+#     print("*" * i , end="")
+#     print("")
+
+# n = 5
+# for i in range(1, n + 1):
+#     print("*" * ((n+1)-i) , end="")
+#     print("")
+
+
+
+# n = 5
+# for i in range(1, n + 1):
+#     print(" " * (n-i), end="")
+#     print("*" * i , end="")
+#     print("")
+
+# n = 5
+# for i in range(1, n + 1):
+#     print(" " * (i-1), end="")
+#     print("*" * ((n+1)-i) , end="")
+#     print("")
+
+n = 5 
+for i in range(10, 0, -1):
+    print(f"{n} x {i} = {n * i}")
